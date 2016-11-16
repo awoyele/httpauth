@@ -52,7 +52,17 @@ If you are using Laravel 4, you can extract a configuration file to your app by 
 
 After you published the configuration file for the package you can edit the local configuration file `app/config/packages/intervention/httpauth/httpauth.php`.
 
+If you are using Laravel 5, you can extract a configuration file to your app by running the following command:
+
+    $  php artisan vendor:publish --provider=Intervention\Httpauth\HttpauthServiceProviderLaravel5
+    
+After you published the configuration file for the package you can edit the local configuration file
+`config/httpauth.php`.
+
+
 Here's a short explanation of the configuration directives.
+
+
 
 **type** _string_
 
